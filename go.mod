@@ -3,6 +3,10 @@ module github.com/bhojpur/ems
 go 1.17
 
 require (
+	github.com/blang/semver v3.5.1+incompatible
+	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b
+	github.com/golang/snappy v0.0.4
+	github.com/julienschmidt/httprouter v1.2.0
 	github.com/lib/pq v1.10.0
 	github.com/sirupsen/logrus v1.2.0
 	github.com/spf13/cobra v1.1.3
