@@ -1,0 +1,54 @@
+/build/
+dist/
+.cover/
+profile/
+
+# Bhojpur EMS daemon data from testing
+*.dat
+
+# Bhojpur EMS - Administrator
+node_modules
+
+# Bhojpur EMS - Applications
+apps/emslookupd/emslookupd
+apps/emsd/emsd
+apps/emsadmin/emsadmin
+apps/ems_to_ems/ems_to_ems
+apps/ems_to_file/ems_to_file
+apps/ems_pubsub/ems_pubsub
+apps/ems_to_http/ems_to_http
+apps/ems_tail/ems_tail
+apps/ems_stat/ems_stat
+apps/to_ems/to_ems
+bench/bench_reader/bench_reader
+bench/bench_writer/bench_writer
+bench/bench_channels/bench_channels
+
+# Go.gitignore
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+
+
+# vim stuff
+*.sw[op]
